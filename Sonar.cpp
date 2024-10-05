@@ -8,7 +8,7 @@ void Sonar::begin(){
       pinMode(trig, OUTPUT);
       pinMode(echo, INPUT);
     }
-float Sonar::distance(int value){
+float Sonar::distance(float value){
       if(value == 0){
         return dur() / _CM;
       }

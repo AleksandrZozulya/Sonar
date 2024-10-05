@@ -5,7 +5,7 @@ class Sonar{
   public:
 	Sonar(int echo, int trig);
   	void begin();
-    float distance(int value);
+    float distance(float value);
   private:
 	int dur();
     int trig, echo;
